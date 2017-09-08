@@ -1,0 +1,28 @@
+{
+  "name": "angular-bounce",
+  "version": "0.0.1",
+  "description": "Angular library of CSS animations.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrey149502/angular-bounce.git"
+  },
+  "keywords": [
+    "angular",
+    "angular.io",
+    "animations",
+    "animate.css",
+    "angular2",
+    "angular4",
+    "ng"
+  ],
+  "author": "Andrey Pelykh <andrey149502@gmail.com> (https://github.com/andrey149502)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrey149502/angular-bounce/issues"
+  },
+  "homepage": "https://github.com/andrey149502/angular-bounce#readme"
+}
