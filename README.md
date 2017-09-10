@@ -1,4 +1,4 @@
-Number Formatter
+Angular Bounce
 =========
 
 Animate.css for Angular4;
