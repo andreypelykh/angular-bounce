@@ -1,6 +1,6 @@
 {
   "name": "angular-bounce",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angular library of CSS animations.",
   "main": "lib/index.js",
   "typings": "lib/index",
