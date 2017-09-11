@@ -1,9 +1,9 @@
 {
     "version": "2.5.2",
     "compilerOptions": {
-        "module": "commonjs",
-        "declaration": true,
-        "outDir": "lib/"
+      "outDir": "./lib/",
+      "target": "es5",
+      "declaration": true
     },
     "files": [
         "./src/index.ts"
