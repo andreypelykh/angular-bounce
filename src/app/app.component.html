@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="wrapper" style="text-align:center">
+  <div class="img-wrapper">
+
+  <img [@animationState]="state" (@animationState.done)="animationDone($event)" width="300" src="assets/485ce09979777a7ffd91cdb64cad38f9.png">
+  </div>
+
+  <div class="title">
+    <h1>Angular Bounce</h1>
+    <h4>Make your app interactive</h4>
+  </div>
+
+  <!-- <button (click)="setState('inactive')" >safsdaf</button> -->
+  <div class="buttons-box">
+    <button *ngFor="let state of states" (click)="onBtnClick(state)" >{{ state }}</button>
+  </div>
+  <footer>
+<!--     <a href="#"><button>Download</button></a>
+    or -->
+    <a href="https://github.com/andrey149502/angular-bounce"><button>View on GitHub</button></a>
+  </footer>
+</div>
+
+
+

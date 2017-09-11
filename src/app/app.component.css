@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.buttons-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 0px;
+	padding: 25px;
+}
+
+.buttons-box button {
+	/*flex-grow: 1;*/
+	margin: 5px;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0);
+	font-size: 12px;
+	cursor: pointer;
+	padding: 5px;
+	border: 1px solid #fff;
+}
+
+.title {
+	color: #fff;
+	font-weight: 200;
+}
+
+.buttons-box button:hover, .buttons-box button:focus {
+	transition: 0.1s ease all;
+	transform: scale(1.5);
+	background-color: #fff;
+	color: rgba(85,239,203,1);
+}
+
+.buttons-box button:focus {
+	outline: 0;
+}
+
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100%;
+
+	background: linear-gradient(135deg, rgba(85,239,203,1) 0%,rgba(30,87,153,1) 0%,rgba(85,239,203,1) 0%,rgba(91,202,255,1) 100%);
+	background-repeat: no-repeat;
+}
+
+.img-wrapper img {
+	width: 200px;
+}
+
+footer {
+	text-align: center;
+	color: #fff;
+}
+
+footer a {
+	color: #E1F5FE;
+}
+
+footer button {
+	margin: 5px;
+	font-weight: bold;
+	background-color: #F50057;
+	font-size: 12px;
+	border: 0; 	
+	cursor: pointer;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+footer button:hover {
+	transition: 0.1s ease all;
+	transform: scale(1.1);
+	background-color: #fff;
+	color: rgba(85,239,203,1);
+}
+
+footer button:focus {
+	outline: 0;
+}
