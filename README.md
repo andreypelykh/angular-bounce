@@ -18,10 +18,16 @@ Animate.css for Angular4;
       styleUrls: ['./app.component.css'],
       animations: [
         trigger('heroState', [
-          transition('inactive => active', animate('1s', BOUNCE_IN)),
-          transition('active => inactive', animate('1s', BOUNCE_OUT))
+          transition('inactive => active', [ 
+            useAnimation(BOUNCE_IN)
+          ]),
+          transition('active => inactive', [ 
+            useAnimation(BOUNCE_OUT)
+          ])
         ])
       ]
     })
 
 ```
+
+## Attention! The library doesn't work with AOT compiler. 
