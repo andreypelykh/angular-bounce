@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrey149502/angular-bounce.git"
+    "url": "git+https://github.com/andreypelykh/angular-bounce.git"
   },
   "keywords": [
     "angular",
@@ -23,12 +23,12 @@
     "angular4",
     "ng"
   ],
-  "author": "Andrey Pelykh <andrey149502@gmail.com> (https://github.com/andrey149502)",
+  "author": "Andrey Pelykh <andrey149502@gmail.com> (https://github.com/andreypelykh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrey149502/angular-bounce/issues"
+    "url": "https://github.com/andreypelykh/angular-bounce/issues"
   },
-  "homepage": "https://github.com/andrey149502/angular-bounce#readme",
+  "homepage": "https://github.com/andreypelykh/angular-bounce#readme",
   "peerDependencies": {
     "@angular/animations": "^4.2.4"
   },
