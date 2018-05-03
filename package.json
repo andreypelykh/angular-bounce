@@ -1,14 +1,9 @@
 {
   "name": "angular-bounce",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Angular library of CSS animations.",
-  "main": "lib/index.js",
-  "typings": "lib/index",
-  "files": [
-    "lib/"
-  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "ng-packagr -p ng-package.json"
   },
   "repository": {
     "type": "git",
@@ -21,7 +16,11 @@
     "animate.css",
     "angular2",
     "angular4",
-    "ng"
+    "angular5",
+    "bounce",
+    "fade",
+    "ng",
+    "aot"
   ],
   "author": "Andrey Pelykh <andrey149502@gmail.com> (https://github.com/andreypelykh)",
   "license": "MIT",
@@ -30,9 +29,15 @@
   },
   "homepage": "https://github.com/andreypelykh/angular-bounce#readme",
   "peerDependencies": {
-    "@angular/animations": "^4.2.4"
+    "@angular/animations": "^4.0.0"
   },
-  "dependencies": {
-    "@angular/animations": "^4.4.0-RC.0"
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/animations": "^5.2.10",
+    "@angular/compiler": "^5.2.10",
+    "@angular/compiler-cli": "^5.2.10",
+    "@angular/core": "^5.2.10",
+    "ng-packagr": "^2.4.2",
+    "typescript": "^2.8.3"
   }
 }

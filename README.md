@@ -1,7 +1,9 @@
 Angular Bounce
 =========
 
-Animate.css for Angular4;
+Animate.css for Angular4+;
+
+**AOT compatible**
 
 ## Installation
 
@@ -29,5 +31,3 @@ Animate.css for Angular4;
     })
 
 ```
-
-## Attention! The library doesn't work with AOT compiler. 
